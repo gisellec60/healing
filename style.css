@@ -2,13 +2,24 @@ body {
     background-color: rgb(244, 245, 247);
 }
 
+.image {
+    position:fixed;
+    top: 10px;
+    left : 10px;
+    padding: 10px;
+}  
+
+html {
+  height : 800px;
+}
+
 h1 {
     position:relative;
     text-align: center;
     text-shadow:3px 3px #AAAAAA;
     font-size: 75px;
     line-height:5%;
-    background-color:rgb(185, 188, 191);
+    background-color:rgb(89, 159, 228);
     height: 10px;
     padding:10px 15px;
     border: 2px;
@@ -24,7 +35,7 @@ pre  {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
     line-height: 15px;
-    color:purple;
+    color:whitesmoke;
     top:105px;
     left: 650px;
 }
@@ -34,14 +45,14 @@ pre  {
 }
 
 .hrline {
-   border: 3px solid red;
+   border: 3px solid rgb(89, 159, 228);
 }
 
 h3 {
   position:absolute;  
   font-size: 20px;  
   line-height: 0px;
-  background-color:rgb(185, 188, 191);
+  background-color:rgb(89, 159, 228);
   height: 500px;
   padding:10px 15px;
   border: 2px;
