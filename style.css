@@ -69,7 +69,8 @@ pre.sibling-element {
 
 .hrline2 {
    position: absolute; 
-   border: 3px solid rgb(89, 159, 228);
+   border: 1px solid rgba(24, 154, 241, 0.83);
+   border: 1px solid rgb(89, 159, 228);
    top:-15px;
    width:595px;
    left: 8px;
