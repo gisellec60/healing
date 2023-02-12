@@ -59,8 +59,22 @@ pre.sibling-element {
 }
 
 .hrline {
+   position:absolute;
+   top:4px; 
    border: 3px solid rgb(89, 159, 228);
+   width:2000px;
+   left:20px;
 }
+
+
+.hrline2 {
+   position: absolute; 
+   border: 3px solid rgb(89, 159, 228);
+   top:-15px;
+   width:595px;
+   left: 8px;
+}
+
 
 div.GodandHealing {
   position:absolute;  
