@@ -17,7 +17,7 @@ h1 {
     position:relative;
     text-align: center;
     text-shadow:3px 3px #AAAAAA;
-    font-size: 75px;
+    font-size: 73px;
     line-height:5%;
     background-color:rgb(89, 159, 228);
     height: 10px;
@@ -76,17 +76,43 @@ pre.sibling-element {
    left: 8px;
 }
 
+.hrline3 {
+   position: absolute; 
+   border: 1px solid rgba(24, 154, 241, 0.83);
+   border: 1px solid rgb(89, 159, 228);
+   top:-15px;
+   width:595px;
+   left: 10px;
+}
+
+.hrline4 {
+   position: absolute; 
+   border: 1px solid rgba(24, 154, 241, 0.83);
+   border: 1px solid rgb(89, 159, 228);
+   top:-15px;
+   width:595px;
+   left: 8px;
+}
 
 div.GodandHealing {
   position:absolute;  
-  line-height: 4px;
+  font-family:Arial, Helvetica, sans-serif;
+  line-height: 15px;
   background-color:rgb(89, 159, 228);
   height: 50px;
-  padding:10px 115px;
+  padding:5px 25px 25px;
   border: 2px;
   border-radius:12px;
-  margin-left:35px;
-  margin-top:100px;
+  margin-left:720px;
+  margin-top:650px;
+  font-weight:bolder;
+  color:darkmagenta
+}
+
+.GodandHealing:hover {
+  position:absolute;  
+  transform: scale(1.5);
+  margin-top:80px;
  
 }
 
@@ -97,9 +123,15 @@ div.GodandHealing {
   padding:10px 310px;
   border: 2px;
   border-radius:12px;
-  margin-left:35px;
+  margin-left:50px;
   margin-top: 200px;
-      
+}
+
+.foundation-1:hover {
+  position:absolute;
+  transform: scale(1.5);
+  margin-left:300px;
+  margin-top:100px;
 }
 
 .foundation-2{
@@ -113,26 +145,59 @@ div.GodandHealing {
   margin-top:200px;
 }
 
-.truths{
-    position:absolute;
-    font-family:Arial, Helvetica, sans-serif;
-    top: 40px;
-    left:-60px;
-    font-size:16px;
+.foundation-2:hover {
+  transform: scale(1.5);
+  margin-left:1000px;
+  margin-top:100px;
 }
 
-.truth-1{
+.foundation-3{
+  position:absolute;  
+  background-color:rgb(89, 159, 228);
+  height: 525px;
+  padding:10px 310px;
+  border: 2px;
+  border-radius:12px;
+  margin-left:1200px;
+  margin-top:700px;
+}
+
+.foundation-3:hover {
+  transform: scale(1.5);
+  margin-left:1000px;
+  margin-top:200px;
+}
+
+.truths {
+    position:absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    top: 30px;
+    left:-50px;
+    font-size:16px;
+    width:35px;
+    color:black;
+  }
+
+.truth-1 {
     position:absolute;
     font-family:Arial, Helvetica, sans-serif;
     top: 15px;
     left:-75px;
     font-size:16px;
+    transition: font-size 1s;
 }
 
-.truth-2{
+.truth-2 {
     position:absolute;
     font-family:Arial, Helvetica, sans-serif;
     top: 15px;
+    left:20px;
+    font-size:16px;
+}
+.truth-3{
+    position:absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    top: 30px;
     left:20px;
     font-size:16px;
 }
